@@ -1,0 +1,9 @@
+numpy
+torch
+torchaudio
+torchinfo
+pyroomacoustics
+tqdm
+torch_same_pad
+librosa
+scipy
