@@ -46,6 +46,15 @@ The log will output the MAE, RMSE and accuracy for the model and GCC-PHAT. For f
 
 If you use this code repository, please cite the following paper:
 
+```
+@article{berg2022extending,
+  title={Extending GCC-PHAT using Shift Equivariant Neural Networks},
+  author={Berg, Axel and O'Connor, Mark and Åström, Kalle and Oskarsson, Magnus},
+  journal={arXiv preprint arXiv:2208.04654},
+  year={2022}
+}
+```
+
 ## Acknowledgements
 
 The network backbone is borrowed from SincNet and we thank the authors for sharing their code with the community. The original repository is found [here](https://github.com/mravanelli/SincNet).
