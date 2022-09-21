@@ -2,7 +2,7 @@
 
 ![](ngcc.png)
 
-This is the official implementation of "*Extending GCC-PHAT using Shift Equivariant Neural Networks*", published in Interspeech 2022. We propose a neural GCC-PHAT (NGCC-PHAT). The signals are passed through a convolutional network that outputs multiple filtered versions of the signals. Several GCC-PHAT correlations are then computed and combined into a single probability distribution.
+This is the official implementation of [*Extending GCC-PHAT using Shift Equivariant Neural Networks*](https://arxiv.org/abs/2208.04654), published in Interspeech 2022. We propose a neural GCC-PHAT (NGCC-PHAT). The signals are passed through a convolutional network that outputs multiple filtered versions of the signals. Several GCC-PHAT correlations are then computed and combined into a single probability distribution.
 
 For a quick start on how to use NGCCPHAT for TDOA estimation and positioning, try out the notebook [tdoa_example.ipynb](tdoa_example.ipynb)
 
@@ -47,11 +47,13 @@ The log will output the MAE, RMSE and accuracy for the model and GCC-PHAT. For f
 If you use this code repository, please cite the following paper:
 
 ```
-@article{berg2022extending,
-  title={Extending GCC-PHAT using Shift Equivariant Neural Networks},
-  author={Berg, Axel and O'Connor, Mark and Åström, Kalle and Oskarsson, Magnus},
-  journal={arXiv preprint arXiv:2208.04654},
-  year={2022}
+@inproceedings{berg22_interspeech,
+  author={Axel Berg and Mark O'Connor and Kalle Åström and Magnus Oskarsson},
+  title={{Extending GCC-PHAT using Shift Equivariant Neural Networks}},
+  year=2022,
+  booktitle={Proc. Interspeech 2022},
+  pages={1791--1795},
+  doi={10.21437/Interspeech.2022-524}
 }
 ```
 
