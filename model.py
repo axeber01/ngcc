@@ -38,7 +38,7 @@ class GCC(nn.Module):
         elif self.filt == 'scot':
             Gxx = X * torch.conj(X)
             Gyy = Y * torch.conj(Y)
-            phi = 1 / (torch.sqrt(X * Y) + self.epsilon)
+            phi = 1 / (torch.sqrt(Gxx * Gyy) + self.epsilon)
 
         elif self.filt == 'ht':
             Gxx = X * torch.conj(X)
